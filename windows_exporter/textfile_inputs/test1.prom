@@ -1,0 +1,7 @@
+# HELP test_alpha_total Some random metric.
+# TYPE test_alpha_total counter
+test_alpha_total 42
+# HELP test_beta_bytes Some other metric.
+# TYPE test_beta_bytes gauge
+test_beta_bytes{spin="left"} 3.1415
+test_beta_bytes{spin="right"} 2.718281828
